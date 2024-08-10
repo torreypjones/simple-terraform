@@ -10,9 +10,7 @@ on:
  pull_request:
    branches:
    - main
-   paths:
-   - ./**
- 
+   
 env:
  # verbosity setting for Terraform logs
  TF_LOG: INFO
