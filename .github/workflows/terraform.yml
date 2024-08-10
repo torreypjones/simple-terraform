@@ -10,13 +10,10 @@ on:
  pull_request:
    branches:
    - main
-   paths:
-   - ./**
  
 env:
  # verbosity setting for Terraform logs
  TF_LOG: INFO
- # Credentials for deployment to AWS
 jobs:
  terraform:
    name: "Terraform Infrastructure Change Management"
